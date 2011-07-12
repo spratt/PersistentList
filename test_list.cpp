@@ -144,6 +144,7 @@ int main(int argv, char** argc) {
   // parse node size
   int min_ns = atoi(argc[4]);
   int max_ns = atoi(argc[5]);
+  assert(min_ns > 0);
   /////////////////////////////////////////////////////////////////////////////
   // Create points                                                           //
   /////////////////////////////////////////////////////////////////////////////
